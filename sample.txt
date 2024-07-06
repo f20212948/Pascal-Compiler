@@ -1,0 +1,13 @@
+program FactorialCalculation;
+var
+  number, factorial, i: Integer;
+begin
+  number := 0; 
+  factorial := 1;
+  for i := number to 1 do
+  begin
+    factorial := factorial + i;
+  end;
+  write("The factorial is: ");
+  write(factorial);
+end.
